@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+  <link rel="stylesheet" type="text/css"
+href="exo.css">
+  <script type="text/javascript">
+ function change(test){
+   setInterval(function(){
+   if (test.src=="http://www.iut-fbleau.fr/sitebp/web/wim11/js/off.png"){
+     test.src="http://www.iut-fbleau.fr/sitebp/web/wim11/js/on.png"
+     }
+else if (test.src=="http://www.iut-fbleau.fr/sitebp/web/wim11/js/on.png"){
+     test.src="http://www.iut-fbleau.fr/sitebp/web/wim11/js/off.png"
+};}, -1000);
+               
+ }
+  </script>
+<title></title>
+</head>
+<body>
+<div >
+  <img src="http://www.iut-fbleau.fr/sitebp/web/wim11/js/off.png" onclick=change(this) >
+  
+  </div>
+</body>
+</html>
